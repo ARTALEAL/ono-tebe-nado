@@ -5,6 +5,17 @@
 
 @font-face {
   font-family: Raleway;
+  src: url(../fonts/Raleway-Regular.woff);
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: bold;
+  src: url(../fonts/Raleway-Bold.woff);
+}
+
+@font-face {
+  font-family: Raleway;
   font-weight: bold;
   src: url(../fonts/Raleway-Bold.woff2);
 }
