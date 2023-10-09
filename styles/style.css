@@ -25,8 +25,8 @@ body {
 .header {
   position: relative;
   display: flex;
-  padding: calc(var(--index) * 2.85);
-  margin: 92px 0;
+  padding: 54px 49px 55px 51px;
+  margin: 43px 0;
   justify-content: space-between;
   align-items: center;
   font-size: clamp(12px, calc(var(--index) * 1.001), 18px);
@@ -58,6 +58,9 @@ body {
 .header__adress {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
 }
 
 .header__adress-tel {
@@ -98,7 +101,9 @@ body {
   line-height: 115%;
   letter-spacing: 30px;
   padding: 50px;
-  padding-top: 135px;
+  padding-top: 165px;
+  padding-right: 23px;
+  word-spacing: -24px;
 }
 
 .overlay__header-first {
@@ -107,10 +112,13 @@ body {
 
 .overlay__header-second {
   text-align: center;
+  padding-top: 12px;
+  padding-right: 55px;
 }
 
 .overlay__header-third {
   text-align: right;
+  padding-top: 5px;
 }
 
 .overlay__description {
@@ -119,13 +127,14 @@ body {
   justify-content: end;
   align-items: center;
   padding: 50px;
+  padding-top: 78px;
 }
 
 .overlay__description-text {
   text-transform: uppercase;
   line-height: 127.273%;
   font-size: clamp(12px, 5vw, 22px);
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .overlay__description-btn {
@@ -139,6 +148,7 @@ body {
 
 .lots {
   padding: 180px 50px;
+  padding-bottom: 0;
 }
 
 .lots__header {
@@ -200,6 +210,7 @@ body {
   display: block;
   margin-top: 30px;
   padding-left: 40px;
+  font-size: 20px;
 }
 
 .about {
@@ -251,6 +262,13 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 50px 90px;
+  font-size: 18px;
+}
+
+.footer__adress {
+  display: flex;
+  flex-direction: column;
+  line-height: 24.3px;
 }
 
 .footer__navigation {
