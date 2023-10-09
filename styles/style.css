@@ -1,10 +1,10 @@
 @font-face {
-  font-family: raleway_r;
+  font-family: Raleway;
   src: url(../fonts/Raleway-Regular.woff2);
 }
 
 @font-face {
-  font-family: raleway_r;
+  font-family: Raleway;
   font-weight: bold;
   src: url(../fonts/Raleway-Bold.woff2);
 }
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: raleway_r, sans-serif;
+  font-family: Raleway, sans-serif;
   color: var(--color-black);
   max-width: 1440px;
   margin: auto;
@@ -69,8 +69,7 @@ body {
   top: 50%;
   left: 50%;
   max-width: 148px;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .cover-dark {
