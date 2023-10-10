@@ -9,4 +9,4 @@
 
 ## Ссылка на проект
 
-[Оно тебе надо](artaleal.github.io/ono-tebe-nado/)
+[Оно тебе надо](https://artaleal.github.io/ono-tebe-nado/)
